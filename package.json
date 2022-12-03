@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/api/server.js",
   "scripts": {
-    "start": "pm2-runtime start ecosystem.config.yml",
+    "start": "node ./src/api/server.js",
     "dev": "nodemon .",
     "heroku-postbuild": "npm install pm2",
     "test": "mocha ./test/**/*$NAME*.{test,spec}.js --exit",
