@@ -40,3 +40,4 @@ lerna-debug.log*
 
 # SonarQube Plugin
 .idea/**/sonarIssues.xml
+.vercel
